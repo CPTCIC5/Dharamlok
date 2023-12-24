@@ -15,7 +15,7 @@ class Sauda(models.Model):
     brand = models.CharField(max_length=50)
     quantity= models.IntegerField()
     rate = models.FloatField()
-    date = models.DateTimeField(auto_now_add=True)
+    #date = models.DateTimeField(auto_now_add=True)
 
     def __str__(self):
         return self.party_name
